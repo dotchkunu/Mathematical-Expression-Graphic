@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Mathematical Expression Art | Fractals & Formulas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="glCanvas"></canvas>
+
+<div class="editor-panel">
+    <div class="editor-header">
+        <span>📐 MATHEMATICAL EXPRESSION ART</span>
+        <div class="badge">fractals | formulas | equations</div>
+    </div>
+    <textarea id="shaderCodeArea" spellcheck="false" rows="12"></textarea>
+</div>
+
+<div class="toolbar">
+    <button class="tool-btn" id="resetViewBtn">⟳ Reset</button>
+    <button class="tool-btn" id="toggleAnimBtn">⏸️ Pause</button>
+    <button class="tool-btn" id="fullResBtn">🔘 Full Res</button>
+</div>
+<div id="errorBox"></div>
+<div class="status-led" id="statusLed"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
